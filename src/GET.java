@@ -22,5 +22,7 @@ public class GET {
     public static void main(String[] args) throws Exception
     {
         System.out.println(getHTML("https://jsonplaceholder.typicode.com/todos/1"));
+        Date date= new Date();
+        date.getDate();
     }
 }
